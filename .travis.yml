@@ -3,3 +3,5 @@ python:
 - "3.4"
 script:
   - python3 test_script.py
+  - python3 test_script_2.py
+  
