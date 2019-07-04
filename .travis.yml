@@ -1,7 +1,11 @@
 language: python
 python:
 - "3.4"
+language: r
+r: 
+- "3.4.1"
 script:
   - python3 test_script.py
   - python3 test_script_2.py
+  - r test_r.R
   
